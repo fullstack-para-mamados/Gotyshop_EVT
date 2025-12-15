@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90B9E478-A888-B11D-732F-280B56AB6F8F" name="ESCUELA">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_escuela" id="4BE3E8A2-F000-F4FB-CC54-D463B41444B3">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>F5B54345-53BC-37E0-72E9-F8C4F459F2D5</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_escuela" id="A9E2623A-5D86-A673-F19A-8B580A14A1D1">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>FB5B767C-8413-0131-0F54-8070BEDFC4AA</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="AE74BCDB-B2A5-7C92-1417-6EC421FA64EA">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>FF1A67D1-0B71-EEB2-C830-AC043BD62744</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fundacion" id="34ADEAB7-2562-E9C8-140D-DD18C0B4D32C">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>71D4C5C9-8EFA-7890-AF5E-121E975FA48F</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_escuela" id="8A64B594-00AE-5834-7C64-744A8E285311">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>946FA524-8508-501E-52DB-9B906ACC0E21</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_deporte" id="E7087BB0-C976-85B4-0AB5-5C04E53573C4">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>E0C98966-A21A-1402-9CEF-66739330B8EF</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="D741A804-E790-27C7-7B7B-0DB7C53B7937">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>52003BB5-7EDD-E430-4C1B-55C07F8F95BF</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_director" id="5FC27708-6537-53A2-A982-23CDDE8B6ED1">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>98671076-0616-80F3-5F1A-6DBC16B6E2A2</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_escuela" id="6F89F6DE-3154-AAD1-6770-1BB7AF052C59">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<importedID>46B80F65-5D08-931A-9CAF-C58ED4A21CE6</importedID>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7ABFF2B7-1036-B5A1-20AF-30BD5DBBEC56" name="ESCUELA_DEPORTIVA PK">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:34:46 UTC</createdTime>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FCD0AA80-C954-5BA8-2BF1-621692E4CB08" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4BE3E8A2-F000-F4FB-CC54-D463B41444B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

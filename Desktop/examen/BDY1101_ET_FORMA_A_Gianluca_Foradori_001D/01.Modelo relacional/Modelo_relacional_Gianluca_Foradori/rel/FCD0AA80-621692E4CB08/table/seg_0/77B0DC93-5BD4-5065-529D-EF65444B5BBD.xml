@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77B0DC93-5BD4-5065-529D-EF65444B5BBD" name="EMPLEADO">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>143B8A06-FEF5-7B2E-76A5-BD0527BF9F32</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_empleado" id="EA54F5D5-91DD-257B-D80E-DBE59F222FE6">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>49D6A012-38F9-92D5-A18F-EACFC533FC4D</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_empleado" id="DB838B2F-F188-80F7-F299-8B4349D73EE4">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>BCA18F2B-A14B-2DC0-9EEF-94239E1C8FB9</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_paterno" id="F5C34052-A358-78B6-39C9-81E1C5BBD54B">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>183DAE8D-12D4-A462-DE66-167F1E992861</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_materno" id="390C1229-12D1-A583-758C-FE7732D5DCE6">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>13242B33-FB54-1B7C-028C-3FEC1E43A0E3</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento_empleado" id="7714E918-D670-5A40-BF18-D392586EA1DB">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>13E629AE-29E5-B60D-D28B-CAC4207F3239</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_empleado" id="EDCDB4C4-9DAC-AB4F-A9E3-C8B840CBCB00">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>9AB734E1-10AE-FB6E-0BEE-13ED52981F93</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_emp" id="37FF7A3C-7B44-B305-C8CF-0AE8A2AEB6AB">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>9EB5C2DA-E8EF-63F5-34BE-8D4DF9444BD2</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_contrato" id="72242951-B1A9-2F50-55C3-DFF4C823082A">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>EB7CFD0B-3557-5CE6-DD4F-AC1E7174ED04</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cargo" id="757759D0-6BA3-56EB-3FBC-705AFC423993">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>91427E02-A7BD-B9FC-2922-3EA87F4E0F36</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_genero" id="123EE93D-667F-C624-9FB3-5D1F006B1DFD">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>DA554A1D-D1DB-5144-541D-C2A9E152E3A9</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_nacionalidad" id="E41CC020-19B0-E67C-3361-D860E63FACC4">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>0729558E-131B-8E03-B0AB-DC32770A240F</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_estado_civil" id="8C892C38-BC3A-A017-5543-03D884C57E61">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>BBC85D2A-96B0-1987-744D-4B2B813C0D56</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comuna" id="4152B473-59F7-B06C-4730-3A154BF112F0">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>B6B6C580-7040-CCD5-D935-7E4199FBA1F5</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_id_escuela" id="2388E1B7-4147-EC88-9A23-C3F65B20F5FA">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>BF1958BC-AC0F-E49D-B786-7CAF3522B506</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9396686-2C6B-5CA0-03C7-8DFA3B7CB669" referredColumn="0E31FFB1-4155-F6AD-70B4-804FE0701200"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84426A19-EFF0-577E-9524-F524D7668542" name="EMPLEADO_PK">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>A0126B96-BEC4-9674-6E97-F7CE4DE0EE87</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA54F5D5-91DD-257B-D80E-DBE59F222FE6"/>
+<colUsage columnID="2388E1B7-4147-EC88-9A23-C3F65B20F5FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7161702D-1B28-F04E-10FC-09BEEED1A1EB" name="EMPLEADO_ESCUELA_FK">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 07:41:47 UTC</createdTime>
+<generatorID>BF393068-A0CC-373D-DC4B-A32C1596A933</generatorID>
+<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2388E1B7-4147-EC88-9A23-C3F65B20F5FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
