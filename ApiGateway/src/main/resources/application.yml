@@ -1,0 +1,36 @@
+server:
+  port: ${GATEWAY_PORT:8082}
+
+spring:
+  application:
+    name: ApiGateway
+  cloud:
+    gateway:
+      routes:
+        - id: gotystore-service
+          uri: ${GOTYSTORE_SERVICE_URL:http://localhost:8080}
+          predicates:
+            - Path=/api/clientes/**,/api/juegos/**,/api/ventas/**
+        - id: gotystore-auth
+          uri: ${GOTYSTORE_SERVICE_URL:http://localhost:8080}
+          predicates:
+            - Path=/api/auth/validar
+        - id: usuario-service
+          uri: ${USUARIO_SERVICE_URL:http://localhost:8081}
+          predicates:
+            - Path=/api/usuarios/**,/api/auth/login,/api/auth/registro
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway
+  endpoint:
+    health:
+      show-details: always
