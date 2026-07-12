@@ -110,15 +110,4 @@ La existencia de JaCoCo no garantiza automáticamente 80% de cobertura: se debe 
 | `GOTYSTORE_DB_URL` | URL JDBC de la base GotyStore |
 | `USUARIO_DB_URL` | URL JDBC de la base de usuarios |
 
-## Evidencias que deben agregar antes de entregar
 
-1. Enlace al repositorio GitHub y capturas del historial de commits por integrante.
-2. Enlace/capturas del tablero Trello con responsables y estados.
-3. Reporte real de cobertura JaCoCo igual o superior a lo solicitado.
-4. Colección de Postman con respuestas 200, 201, 400, 401, 404 y 204.
-5. Confirmación del número total de microservicios exigido por el docente.
-6. Nombre completo del cuarto integrante.
-
-## Advertencia de entrega
-
-Congelar el repositorio en la fecha indicada. La pauta advierte que cambios posteriores a la entrega pueden anular la evaluación.
