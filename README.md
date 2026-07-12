@@ -9,8 +9,6 @@ Proyecto de tienda de videojuegos construido con Spring Boot y una arquitectura 
 - Gianluca Foradori
 - Bastian Henriquez
 
-
-
 ## Servicios incluidos
 
 | Servicio | Puerto | Responsabilidad |
@@ -110,10 +108,6 @@ La existencia de JaCoCo no garantiza automáticamente 80% de cobertura: se debe 
 | `GOTYSTORE_DB_URL` | URL JDBC de la base GotyStore |
 | `USUARIO_DB_URL` | URL JDBC de la base de usuarios |
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0d5a096089839342f9d052b8cc0c479dacf4a0f5
 ## Evidencias que deben agregar antes de entregar
 
 1. Enlace al repositorio GitHub y capturas del historial de commits por integrante.
@@ -126,9 +120,3 @@ La existencia de JaCoCo no garantiza automáticamente 80% de cobertura: se debe 
 ## Advertencia de entrega
 
 Congelar el repositorio en la fecha indicada. La pauta advierte que cambios posteriores a la entrega pueden anular la evaluación.
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 84f9fa07fb994ad29e63b2d8322cfeda8d73abd6
->>>>>>> 0d5a096089839342f9d052b8cc0c479dacf4a0f5
