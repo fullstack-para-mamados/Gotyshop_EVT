@@ -9,6 +9,10 @@ Proyecto de tienda de videojuegos construido con Spring Boot y una arquitectura 
 - Gianluca Foradori
 - Bastian Henriquez
 
+## Entrega
+
+Fecha de entrega de examen transversal 14/07/2026
+
 ## Servicios incluidos
 
 | Servicio | Puerto | Responsabilidad |
