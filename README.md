@@ -29,7 +29,7 @@ La pauta entregada exige al menos 10 microservicios. Este paquete contiene tres 
 - Maven 3.9+
 - Docker Desktop (opcional, recomendado)
 
-## Ejecución local
+## Ejecución Local
 
 En tres terminales:
 
