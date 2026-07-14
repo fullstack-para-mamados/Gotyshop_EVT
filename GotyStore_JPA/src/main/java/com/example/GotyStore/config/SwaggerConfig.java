@@ -7,8 +7,11 @@ import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.info.License;
 import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
+import io.swagger.v3.oas.models.servers.Server;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import java.util.List;
 
 @Configuration
 public class SwaggerConfig {
@@ -29,6 +32,11 @@ public class SwaggerConfig {
                         .license(new License()
                                 .name("Uso académico - Duoc UC")
                                 .url("https://www.duoc.cl")))
+                .servers(List.of(
+                        new Server()
+                                .url("http://localhost:8082")
+                                .description("API Gateway")
+                ))
                 .addSecurityItem(new SecurityRequirement().addList(schemeName))
                 .components(new Components()
                         .addSecuritySchemes(schemeName, new SecurityScheme()
