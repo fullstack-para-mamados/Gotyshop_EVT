@@ -1,6 +1,6 @@
 # GotyShop — Evaluación Final Transversal DSY1103
 
-Proyecto de tienda de videojuegos construido con Spring Boot y una arquitectura distribuida. Incluye persistencia JPA/Hibernate con SQLite, migraciones Flyway, validaciones Bean Validation, manejo global de excepciones, logs SLF4J, autenticación JWT, comunicación Feign y un API Gateway.
+Proyecto de tienda de videojuegos construido con Spring Boot y una arquitectura distribuida. Incluye persistencia JPA/Hibernate con SQLite, migraciones Flyway, validaciones Bean Validation, manejo global de excepciones, logs SLF4J, autenticación JWT, comunicación Feign y un API Gateway...
 
 ## Integrantes
 
