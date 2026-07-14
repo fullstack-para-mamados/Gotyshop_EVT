@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3096824E-3096-E5D8-57D8-3779AD05C5EE" name="CONTRATO">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 02:42:21 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contrato" id="61DC1465-E297-B1FB-AADE-211494779E52">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:13:47 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_contrato" id="7705EC61-BE5D-76CE-E6BA-671F9372B7BE">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:14:46 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="D5FB6E8A-7E59-6A04-FA72-DE4A89224626">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:15:01 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_hora" id="737C2CC6-F8C0-3F88-DA79-B258DE86A862">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:15:15 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="6FCD9481-EC92-22F7-5EAE-058E860BD44B">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:50:50 UTC</createdTime>
+<generatorID>DE615AA0-192E-A905-1F95-290A4236130C</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>F5B54345-53BC-37E0-72E9-F8C4F459F2D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_empleado" id="F82A9150-336E-6F1D-072A-23E0EF8332BA">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:50:54 UTC</createdTime>
+<generatorID>9D467F52-9113-9007-5D00-2C5A5910D859</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>8E320D68-E00B-3C15-71B1-E4A2FFB795B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53BF7C89-AF5A-A446-A211-E6905FA11231" name="CONTRATO PK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:11:40 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61DC1465-E297-B1FB-AADE-211494779E52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

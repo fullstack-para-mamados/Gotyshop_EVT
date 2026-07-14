@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C97F72D5-95D2-64CB-5B16-E4AF834A843B" name="ESCUELA">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>63DE6831-035D-F6A9-D92B-CF4387449840</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="23B15EF4-685E-4926-75B5-F35BE003F999">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>F5B54345-53BC-37E0-72E9-F8C4F459F2D5</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_escuela" id="D56A4B3C-8A19-9F24-4A2D-0E1B34865C50">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>FB5B767C-8413-0131-0F54-8070BEDFC4AA</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="AE6DFFEC-FF9E-7D7D-EE8B-421DAE89F81D">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>FF1A67D1-0B71-EEB2-C830-AC043BD62744</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fundacion" id="18040258-039C-5A50-6864-2B5D81AE03F2">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>71D4C5C9-8EFA-7890-AF5E-121E975FA48F</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_escuela" id="A4BA84B6-6E77-F60B-8426-618CFFFB748B">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>946FA524-8508-501E-52DB-9B906ACC0E21</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_deporte" id="C0CD06C5-6F80-013F-9756-7749ACD85C57">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>E0C98966-A21A-1402-9CEF-66739330B8EF</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_id_comuna" id="E89D8EB1-FC99-2BA5-60B8-7A754C373163">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>52003BB5-7EDD-E430-4C1B-55C07F8F95BF</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="251903CD-C936-C25A-2779-852CAF57D30B" referredColumn="270BAE8B-70B2-E8A8-7986-D43DD7BF354D"/>
+</associations>
+</Column>
+<Column name="DIRECTOR_rut_directivo" id="02111B57-1523-84C8-90BA-B2509B2E287C">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:29:20 UTC</createdTime>
+<generatorID>98671076-0616-80F3-5F1A-6DBC16B6E2A2</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60A3951A-2304-B4FC-4D85-4DF7CB2A07AE" referredColumn="E0A1FEF0-AFD9-F03D-6ECA-5CB7BF1D0894"/>
+</associations>
+</Column>
+<Column name="tipo_escuela" id="A8C971F3-E25F-30AB-45F3-457D862D3529">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:29:20 UTC</createdTime>
+<generatorID>46B80F65-5D08-931A-9CAF-C58ED4A21CE6</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3045094D-0797-5829-571D-C8D9088765CE" name="ESCUELA_DEPORTIVA_PK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>3A7DC3DA-01E2-9044-D4A0-543F893FA948</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B15EF4-685E-4926-75B5-F35BE003F999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C289985-A3F4-66F8-19B1-6303C966503C" name="ESCUELA_COMUNA_FK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>2CEC1736-CBB9-BC81-5F9E-6C8DCC8E00B9</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E89D8EB1-FC99-2BA5-60B8-7A754C373163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="628BAA34-A1C3-A5DB-14DE-8008170E057D" name="ESCUELA_DIRECTOR_FK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:29:20 UTC</createdTime>
+<generatorID>33127339-1065-D603-0686-6B2E3FD3FC01</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02111B57-1523-84C8-90BA-B2509B2E287C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

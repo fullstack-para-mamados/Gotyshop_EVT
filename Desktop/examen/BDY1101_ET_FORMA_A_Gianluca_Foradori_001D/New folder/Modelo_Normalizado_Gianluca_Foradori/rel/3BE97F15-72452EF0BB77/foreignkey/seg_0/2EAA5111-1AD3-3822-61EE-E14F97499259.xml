@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2EAA5111-1AD3-3822-61EE-E14F97499259" containerWithKeyObject="19EAD86D-89D5-A020-C261-E0B35AF0A369" localFKIndex="4A3A87F0-755A-4B44-DF69-DE696B9915B8" name="Relation_33_INSUMO_FK">
+<createdBy>Usurario</createdBy>
+<createdTime>2025-12-15 05:27:19 UTC</createdTime>
+<generatorID>0F34DFC5-C099-F7B7-CBE1-5719906A4EC3</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<referredTableLongName>INSUMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>53A1FE3D-500F-CD24-612C-0AF7386F1EE4</referredTableID>
+<keyObject>7E2F18B6-491F-C381-76AF-26B3AA535904</keyObject>
+<referredKeyID>7E2F18B6-491F-C381-76AF-26B3AA535904</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_insumo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

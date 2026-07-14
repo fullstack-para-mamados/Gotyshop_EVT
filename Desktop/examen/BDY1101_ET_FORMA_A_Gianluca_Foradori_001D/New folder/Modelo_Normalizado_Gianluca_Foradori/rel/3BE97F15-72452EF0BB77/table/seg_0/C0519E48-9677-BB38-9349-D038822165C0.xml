@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0519E48-9677-BB38-9349-D038822165C0" name="NACIONALIDAD">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:29:20 UTC</createdTime>
+<generatorID>E7104B30-A44A-7C83-C7E7-69D7E60D93E4</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nacionalidad" id="4C11663C-E8A8-6BA9-DC3C-7547573092EF">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:29:20 UTC</createdTime>
+<generatorID>F5C845B4-9F23-011E-2E62-1EB9B83E95E7</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="DD8EEF52-413D-22E4-1B1A-94C37A53E836">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:29:20 UTC</createdTime>
+<generatorID>DA8C2D0D-40F4-4A84-EB9D-195F2CE4069B</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D73124A-03F2-96D4-F99D-0782214333B6" name="NACIONALIDAD_PK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:29:20 UTC</createdTime>
+<generatorID>C34D8A2D-B61F-2020-4824-3F0A03F64061</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C11663C-E8A8-6BA9-DC3C-7547573092EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

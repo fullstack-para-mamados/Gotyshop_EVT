@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="DE615AA0-192E-A905-1F95-290A4236130C">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:50:50 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<sourcePk>3A7DC3DA-01E2-9044-D4A0-543F893FA948</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>63DE6831-035D-F6A9-D92B-CF4387449840</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3096824E-3096-E5D8-57D8-3779AD05C5EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2325DAB2-1AD3-CD01-5CCC-CD701CC9FE3F" containerWithKeyObject="D4CAD3C2-76C4-A111-F06C-7EA482AC21FE" localFKIndex="3A392399-B545-CF1B-A2D7-748D9B1970F8" name="ALUMNO_DEPORTE_FK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>DC5AC480-3211-96FE-63FA-D92E3CE766E2</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<referredTableLongName>DEPORTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D94504E-4A8D-B1B7-059D-32448F9E6ED6</referredTableID>
+<keyObject>81A1F340-7086-D45C-8156-13F5DC5E0DB3</keyObject>
+<referredKeyID>81A1F340-7086-D45C-8156-13F5DC5E0DB3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_deporte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

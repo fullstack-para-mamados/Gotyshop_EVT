@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF9F48C6-F975-1227-388A-63825782DFEA" containerWithKeyObject="2F1BF266-06EB-2747-CB09-77684AE9437E" localFKIndex="B8E76437-5FBA-F73E-6005-75FFB7C2DE1E" name="INSCRIPCION_ALUMNO_FK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>7467FC44-C50C-3A83-11B5-300C71C78736</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<referredTableLongName>ALUMNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4CAD3C2-76C4-A111-F06C-7EA482AC21FE</referredTableID>
+<keyObject>39837070-FD8C-4D59-681A-640A00A699BC</keyObject>
+<referredKeyID>39837070-FD8C-4D59-681A-640A00A699BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_alumno</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="936D3BFD-7351-766B-DC99-E9995EEA01F6" containerWithKeyObject="D9BDA0C6-E1BD-6959-25EF-E06B68199F28" localFKIndex="1A798CD0-A104-C345-D94B-C6A77CEF3AC8" name="EMPLEADO_GENERO_FK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:58 UTC</createdTime>
+<generatorID>138822B3-FEF0-A4F8-DFCF-6CA8189528E1</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<referredTableLongName>GENERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76A237E5-28B3-49C2-8C7D-64645821BA19</referredTableID>
+<keyObject>DE96EDA9-13B3-4DD9-8D82-64B626169319</keyObject>
+<referredKeyID>DE96EDA9-13B3-4DD9-8D82-64B626169319</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_genero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

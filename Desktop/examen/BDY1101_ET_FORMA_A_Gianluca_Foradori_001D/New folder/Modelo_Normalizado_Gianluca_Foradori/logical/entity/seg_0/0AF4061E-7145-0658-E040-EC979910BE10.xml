@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AF4061E-7145-0658-E040-EC979910BE10" name="EMPLEADO">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 02:40:10 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_empleado" id="8E320D68-E00B-3C15-71B1-E4A2FFB795B4">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:04:49 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_empleado" id="0CC42EB8-681D-14A5-63E0-8011BB162662">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:08:00 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_paterno" id="59D38022-9471-9B5E-A0BA-0140C2B087AE">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:08:13 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_materno" id="2DC458B5-045F-A714-6459-2341469F5741">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:49:52 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento_empleado" id="C82749D0-5989-52B4-32A5-B367C33A1A44">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:08:30 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_empleado" id="C2A47FCB-A86D-ABA0-91D0-8FC89DD34A45">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:08:50 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_emp" id="CEEC839A-B000-74F0-E17D-3CA641BC0448">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:09:28 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="3962EA64-BD91-F156-8868-B34C0B62A150">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:26:21 UTC</createdTime>
+<generatorID>5B44A5AE-D06B-1F4F-6FFA-B8025B2758D3</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>397BAE01-A23F-0743-E9B2-D6CC20E4A9FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cargo" id="0D76C64B-689D-F3C4-FA59-D8F6D1AC8D6D">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:00:03 UTC</createdTime>
+<generatorID>B47A8084-7872-2FAF-6305-BCBEE02DC8A8</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>C8C37C98-4E4D-C464-8DB7-C86FF2B3CD1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_genero" id="9FC07E62-C29E-3A6F-BED3-711436C2E789">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:18:16 UTC</createdTime>
+<generatorID>138822B3-FEF0-A4F8-DFCF-6CA8189528E1</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>F21A0F3D-FCAB-074F-0C68-35BE62685BC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacionalidad" id="BCF9F508-8D11-EB83-19DA-787F4AEB4D96">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:26:46 UTC</createdTime>
+<generatorID>CB5C56EF-7F47-333A-62F9-1785A2163284</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>F5C845B4-9F23-011E-2E62-1EB9B83E95E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado_civil" id="8C44699E-A57E-6CB4-B21C-95D47A274AE6">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:26:50 UTC</createdTime>
+<generatorID>0DB4A1D2-75B4-8240-E8DC-AEA7B9E16B10</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>643437D9-CDBB-5B71-8F41-D6FA707211A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="5BD7370F-F791-AB22-6FA1-5C239CFE1F61">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 04:27:40 UTC</createdTime>
+<generatorID>917DFF4A-E88B-6B1F-895D-0594DE9ECFCC</generatorID>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="true"/>
+</engineerTo>
+<referedAttribute>8EF0C3E7-2A29-055E-A060-7C19F09F845C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4074C389-95ED-67A6-9F67-F06D0045FB08" name="PERSONAl PK">
+<createdBy>gabri</createdBy>
+<createdTime>2025-12-15 03:06:28 UTC</createdTime>
+<ownerDesignName>Modelo_Normalizado_Gianluca_Foradori</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3BE97F15-D55B-A4E1-44A2-72452EF0BB77" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E320D68-E00B-3C15-71B1-E4A2FFB795B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
