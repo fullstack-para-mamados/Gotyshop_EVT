@@ -1,8 +1,0 @@
-**/target/
-*.db
-*.db-shm
-*.db-wal
-.idea/
-.vscode/*.log
-.DS_Store
-.env
