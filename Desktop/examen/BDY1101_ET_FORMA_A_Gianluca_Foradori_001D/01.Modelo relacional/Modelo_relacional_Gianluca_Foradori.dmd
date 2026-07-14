@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_relacional_Gianluca_Foradori" id="87AB053A-BAA2-A2F4-407A-EDEFBF6955D7" version="3.5">
-<createdBy>Usurario</createdBy>
-<createdTime>2025-12-15 04:30:04 UTC</createdTime>
-<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>87AB053A-BAA2-A2F4-407A-EDEFBF6955D7</designId>
-</OSDM_Design>

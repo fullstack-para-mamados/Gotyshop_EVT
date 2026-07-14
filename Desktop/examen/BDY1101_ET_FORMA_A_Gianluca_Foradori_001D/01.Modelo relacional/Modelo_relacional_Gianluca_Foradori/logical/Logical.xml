@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="03FF54F8-71EC-5DC9-D26B-154487623CBE" mainViewID="DB5FC2F0-C2ED-DE4B-F66C-66017B23BB02">
-<createdBy>Usurario</createdBy>
-<createdTime>2025-12-15 04:30:04 UTC</createdTime>
-<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

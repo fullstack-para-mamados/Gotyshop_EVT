@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F5CA15A9-7052-BF23-AA59-A35DD78D7877">
-<createdBy>Usurario</createdBy>
-<createdTime>2025-12-15 04:30:04 UTC</createdTime>
-<ownerDesignName>Modelo_relacional_Gianluca_Foradori</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
